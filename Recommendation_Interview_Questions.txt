@@ -1,0 +1,29 @@
+
+Interview Questions:
+1. Can you explain the difference between user-based and item-based collaborative filtering?
+Ans:
+User-based collaborative filtering:
+
+- Focuses on finding similar users to a target user
+- Builds a model of user behavior and preferences
+- Recommends items liked by similar users
+- Uses user-user similarity matrix to identify similar users
+
+Item-based collaborative filtering:
+
+- Focuses on finding similar items to ones a user has liked
+- Builds a model of item relationships and similarities
+- Recommends items similar to ones a user has liked
+- Uses item-item similarity matrix to identify similar items
+
+2. What is collaborative filtering, and how does it work?
+Ans: 
+Collaborative filtering (CF) is a recommendation technique that predicts user preferences by analyzing the behavior and preferences of similar users or items. It's based on the idea that users with similar interests or behaviors will like similar things.
+
+Collaborative filtering works:
+
+1. Data collection
+2. Building a matrix
+3. Finding similarities
+4. Identifying neighbors
+5. Generating recommendations
